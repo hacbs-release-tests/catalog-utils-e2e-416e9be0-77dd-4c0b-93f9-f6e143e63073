@@ -79,7 +79,7 @@ spec:
       runAsUser: 1001
   steps:
     - name: run-file-updates
-      image: quay.io/konflux-ci/release-service-utils@sha256:17e594729947b9313ce32c9dc0ec10a12f29407fb1360c7706a317af85972b8e
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:03c30e64afa2ca0d90b28a5315fd9c571683011ed2facd2345da5b12fb97f9cd
       computeResources:
         limits:
           memory: 512Mi

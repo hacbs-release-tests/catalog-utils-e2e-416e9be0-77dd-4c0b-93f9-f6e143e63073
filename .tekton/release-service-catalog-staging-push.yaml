@@ -69,7 +69,7 @@ spec:
             optional: true
         steps:
         - name: send-failure-to-slack
-          image: quay.io/konflux-ci/release-service-utils@sha256:3bf363d58d13d88da6fa77425a765ee6c0da61cd89f39a0052983337b97d4f88
+          image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:03c30e64afa2ca0d90b28a5315fd9c571683011ed2facd2345da5b12fb97f9cd
           computeResources:
             limits:
               memory: 128Mi

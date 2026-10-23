@@ -160,7 +160,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: rh-sign-rpm
-      image: quay.io/konflux-ci/release-service-utils@sha256:da48275d90ecd65e2aec9c71f74b86314ce6ceb81dc3045d5c7546c9548273e8
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:03c30e64afa2ca0d90b28a5315fd9c571683011ed2facd2345da5b12fb97f9cd
       computeResources:
         limits:
           memory: 512Mi

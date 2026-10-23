@@ -118,7 +118,7 @@ spec:
         - name: caCertPath
           value: $(params.caCertPath)
     - name: update-cr-status
-      image: quay.io/konflux-ci/release-service-utils@sha256:5546fa78d3c88d7b6a2e8cff8902f7757f00541d0bbaf113b9f293133894afa3
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:03c30e64afa2ca0d90b28a5315fd9c571683011ed2facd2345da5b12fb97f9cd
       computeResources:
         limits:
           memory: 128Mi
